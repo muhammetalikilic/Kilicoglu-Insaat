@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.py-8 {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.acikSiyah {
+    color: #393939;
+}
+
+#haberlerList a {
+    color: #000;
+}
+
+#haberlerList h5 {
+    font-size: 18px;
+}
+
+
+.nav-item {
+    display: inline-block;
+    padding-bottom: 1px;
+    position: relative;
+}
+
+.nav-item::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: #ffb536;
+    transition: width 0.3s ease-out;
+}
+
+.nav-item:hover::before {
+    width: 100%;
+}
+
+.dropdown a:hover {
+    border: none;
+}
+
+.banner a {
+    color: #fff !important;
+}
+
+
+.sliderText {
+    font-size: 50px;
+    letter-spacing: 20px;
+}
+
+.carousel-inner h5 {
+    font-size: 50px !important;
+    padding-bottom: 18%;
+    letter-spacing: 15px;
+}
+
+#mesajlar {
+    cursor: pointer;
+    color: #393939;
+}
+
+.baskanMesaj {
+    position: absolute;
+    color: white;
+    margin-top: 87%;
+    margin-left: 29%;
+    font-size: 22px;
+}
+
+.genelMudurMesaj {
+    position: absolute;
+    color: white;
+    margin-top: 87%;
+    margin-left: 18%;
+    font-size: 22px;
+}
+
+#projeler img {
+    width: 350px;
+    position: absolute;
+    filter: brightness(80%);
+    border-radius: 10px;
+}
+
+#projeler {
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.projelerBaslik {
+    position: absolute;
+    color: #fff;
+    margin-top: 25%;
+    margin-left: 65px;
+    font-size: 25px;
+}
+
+#projeler .btn-primary {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 60%;
+}
+
+#projeler .btn-outline-light {
+    position: absolute;
+    margin-top: 88%;
+    right: 43px;
+}
+
+.maviRenk {
+    color: #075095 !important;
+}
+
+#cta {
+    background-color: #075095;
+}
+
+
+#topFooter {
+    background-color: #075095;
+    border-bottom: 1px solid #b8b8b8;
+}
+
+#topFooter .text-white a:hover {
+    color: #ffb536 !important;
+}
+
+#topFooter .fa-twitter,
+#topFooter .fa-whatsapp {
+    padding: 0 7px;
+}
+
+
+ul {
+    list-style: none;
+    margin-left: -40px;
+}
+
+#topFooter a {
+    color: #fff !important;
+}
+
+#bottomFooter {
+    background-color: #075095;
+}
+
+
+.banner {
+    background-color: #075095;
+    padding: 25px 0;
+}
+
+.banner h1 {
+    font: normal bold 30px "Open Sans Condensed";
+}
+
+.ortaklar img {
+    width: 80px;
+    height: 80px;
+    margin-top: 10px;
+}
+
+.hakkimdaBorder {
+    border-bottom: 1px solid #393939;
+    color: #075095;
+}
+
+
+#hakkimizda .col-md-9 h3 {
+    border-bottom: 2px solid #ffb536;
+    color: #075095 !important;
+}
+
+
+#adresler a {
+    text-decoration: none !important;
+    color: #000;
+}
+
+#devamEdenProjeler .sayfaGecisi {
+    margin-left: 850px !important;
+}
+
+#tamamlanmisProjeler .sayfaGecisi {
+    margin-left: 500px !important;
+}
+
+
+/* MOBİL GÖRÜNÜM */
+
+@media (max-width:798px) {
+
+    #footer .col-md-2 {
+        margin-top: 20px;
+    }
+
+    .projelerMobil {
+        margin: 50px 0;
+    }
+
+    .baskanMesaj {
+        margin-left: 75px;
+    }
+
+    .genelMudurMesaj {
+        margin-left: 25px;
+    }
+
+    .genelMudurMesajArea {
+        margin-top: 25px;
+    }
+
+    #cta .row .col-3 {
+        display: none;
+    }
+
+    .banner {
+        padding: 0;
+    }
+
+    #hizmetlerBanner .bannerMobilLeft,
+    #haberlerBanner .bannerMobilLeft,
+    #tamamlanmisProjelerBanner .bannerMobilLeft,
+    #devamEdenProjelerBanner .bannerMobilLeft,
+    #iletisimBanner .bannerMobilLeft,
+    #hakkimizdaBanner .bannerMobilLeft {
+        text-align: left !important;
+    }
+
+    #hakkimizda .col-md-3 {
+        padding-top: 0px !important;
+    }
+
+
+    #haberlerList .twitterArea,
+    .sosyalMedyaArea {
+        display: none;
+    }
+
+    #haberlerList .col-md-3 .col-12 {
+        margin-top: 20px;
+    }
+
+    #devamEdenProjeler .sayfaGecisi {
+        margin-left: 135px !important;
+    }
+
+    #tamamlanmisProjeler .sayfaGecisi {
+        margin-left: 115px !important;
+    }
+
+    #devamEdenProjeler .my-auto,
+    #tamamlanmisProjeler .my-auto {
+        padding-top: 20px !important;
+    }
+
+    #hizmetler .py-8 {
+        padding: 20px 0 !important;
+
+    }
+
+     #adresler .ikinciKolon {
+           margin-bottom: -40px;
+           margin-top: 20px;
+     }
+
+
+
+
+
+
+
+
+}
